@@ -49,6 +49,7 @@ void setup() {
 
 	display.clearDisplay();   // clears the screen and buffer
 
+
 	ppm_decoder.setPin(3);
 	ppm_decoder.setPauseLength(3000);
 	ppm_decoder.setTimeout(500);
